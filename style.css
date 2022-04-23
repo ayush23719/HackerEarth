@@ -61,7 +61,7 @@
   transition: all 0.3s ease;
 }
 .menu-list li a:hover{
-  color: #007bff;
+  color: #000000;
 }
 .bg{
     background: linear-gradient(270deg,rgba(36,45,61,0) 0,rgba(36,45,61,.6) 100%);
@@ -81,17 +81,11 @@
     z-index: -1;
   }
 .about{
-  /* padding: 30px 0; */
-  background-color: #fff;
-}
-.about .title{
-  /* font-size: 38px; */
-  font-size: 1rem;
-  font-weight: 700;
+   padding: 30px 0;
 }
 .about p{
-  /* padding-top: 20px; */
-  /* text-align: justify; */
+  padding-top: 20px;
+  text-align: justify;
 }
 .icon{
   color: #fff;
@@ -170,7 +164,7 @@
     transform: translate(-50%, -50%);
     color: white;
     text-align: center;
-  /* margin: 0; */
+   margin: 0; 
   font-size: 3rem;
   white-space: nowrap;
   font-family: 'Poppins', sans-serif;
@@ -188,4 +182,66 @@
   white-space: nowrap;
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
+}
+
+a.btn {
+  margin-top: 22%;
+  margin-left: 42%;
+  text-decoration: none;
+  border: 1px solid white;
+  color: transparent;
+  font-size: 28px;
+  font-family: 'Poppins';
+  letter-spacing: 5px;
+  transition: all 0.5s;
+  position: absolute;
+  font-weight: bold;
+}
+a.btn:before {
+  content: "Read More";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(62, 129, 91);
+  background: rgb(34, 34, 34);
+  font-size: 1rem;
+  top: 0;
+  left: 100%;
+  font-family: sans-serif;
+  letter-spacing: 5px;
+  transition: all 1s;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  transform: scale(0) rotatey(0);
+  opacity: 0;
+}
+a.btn:hover:before {
+  transform: scale(1) rotatey(360deg);
+  left: 0;
+  opacity: 1;
+}
+a.btn:after {
+  content: "Read More";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background: rgb(34, 34, 34);
+  font-size: 1rem;
+  top: 0;
+  left: 0;
+  font-family: sans-serif;
+  letter-spacing: 5px;
+  transition: all 1s;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  transform: scale(1) rotatey(0);
+  opacity: 1;
+}
+a.btn:hover:after {
+  transform: scale(0) rotatey(360deg);
+  left: -100%;
+  opacity: 0;
 }
