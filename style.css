@@ -21,6 +21,7 @@
   max-width: 1250px;
   margin: auto;
   padding: 0 30px;
+  
 }
 .navbar{
   position: fixed;
@@ -158,4 +159,31 @@
   .navbar .logo a{
     font-size: 27px;
   }
+}
+
+.title{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+  margin: 0;
+  font-size: 3rem;
+  white-space: nowrap;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+.bg_text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #b4b3b3;
+    text-align: center;
+  margin: 0;
+  font-size: 1rem;
+  white-space: nowrap;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
 }
