@@ -12115,6 +12115,11 @@ body {
     line-height: 2.5rem;
   }
 }
+.counter{
+  font-family: 'Varela Round';
+  color: #558985;
+  font-size: 2rem;
+}
 .projects-section {
   padding: 10rem 0;
 }
