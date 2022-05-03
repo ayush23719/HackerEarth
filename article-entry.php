@@ -52,7 +52,7 @@ $lname=$_POST["lname"];
 <body>
 <section class="america-section bg-light" id="america">
 <center><i class="fa-solid fa-thumbs-up fa-6x"></i>
-           <p class="text-black mt-4">Thanks! We'll Get Back To You...</p>
+           <p class="text-black mt-4">Thanks, <?php echo $fname ?>! We'll Get Back To You...</p>
            <a class="nav-link" href="index.html"><i class="fa-solid fa-house"></i> Home</a>
         </center>
         </section>
